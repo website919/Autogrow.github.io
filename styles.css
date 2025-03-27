@@ -1,0 +1,164 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f9f4;
+    color: #333;
+}
+
+header {
+    background-color: #ADD8E6; /* Light Blue */
+    color: white;
+    padding: 15px 20px;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 1.8em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+#hero {
+    background-color: #e0f8e0; /* Light Mint */
+    padding: 80px 20px;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 2.5em;
+    color: #2e8b57; /* Darker Green */
+}
+
+#hero p {
+    font-size: 1.2em;
+}
+
+#hero .btn-primary {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.1em;
+    border-radius: 5px;
+}
+
+#hero .btn-primary:hover {
+    background-color: #1e6e42;
+}
+
+/* Selling Points Section */
+#selling-points {
+    padding: 40px 20px;
+    background-color: #e0f8e0; /* Light Mint */
+    text-align: center;
+}
+
+#selling-points h2 {
+    font-size: 2em;
+    color: #2e8b57;
+}
+
+.point {
+    background-color: white;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.point h3 {
+    color: #2e8b57;
+    font-size: 1.8em;
+}
+
+.point p {
+    font-size: 1.2em;
+    line-height: 1.6;
+}
+
+/* Contact Section */
+#contact {
+    padding: 40px 20px;
+    background-color: #e0f8e0;
+}
+
+#contact h2 {
+    font-size: 2.5em;
+    color: #2e8b57;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0 auto;
+}
+
+form label {
+    margin: 10px 0;
+    font-size: 1.2em;
+}
+
+form input,
+form textarea {
+    padding: 10px;
+    font-size: 1em;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #2e8b57;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #1e6e42;
+}
+
+/* Footer */
+footer {
+    background-color: #2e8b57;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
